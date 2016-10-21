@@ -93,7 +93,7 @@ try{
 	}
 	catch(Exception e)
 	{
-		throw new SystemException("Exception in adding item to basket-"+e.getMessage());
+		throw new SystemException("Exception in removing item to basket-"+e.getMessage());
 	}
 
 	}
@@ -121,7 +121,7 @@ try{
 		}
 		catch(Exception e)
 		{
-			throw new SystemException("Exception in adding item to basket-"+e.getMessage());
+			throw new SystemException("Exception in calculating total cost of items in the basket-"+e.getMessage());
 		}
 	}
 
